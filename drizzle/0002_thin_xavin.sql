@@ -1,0 +1,2 @@
+CREATE INDEX `categories_active_order_idx` ON `categories` (`isActive`,`sortOrder`);--> statement-breakpoint
+CREATE INDEX `products_active_featured_order_idx` ON `products` (`isActive`,`isFeatured`,`sortOrder`,`id`);
